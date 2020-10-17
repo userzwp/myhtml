@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/index7.css" rel="stylesheet">
+		<style>
+			.container img{
+				height: 380px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="moon"></div>
+			<img src="img/shu.jpg" class="forest">
+		</div>
+		<script>
+			function stars(){
+				let count = 500;
+				let container = document.querySelector(".container")
+				let i = 0;
+				while(i < count){
+					let star = document.createElement("i")
+					let x = Math.floor(Math.random() * window.innerWidth)
+					let y = Math.floor(Math.random() * window.innerHeight)
+					let duration = Math.random() * 10;
+					let size = Math.random() * 2
+					star.style.left = x +"px";
+					star.style.top = y + "px";
+					star.style.width = 1+size+"px";
+					star.style.height = 1+size+"px";
+					star.style.animationDuration = 5+ duration + "s";
+					star.style.animationDelay = duration + "s"
+					container.appendChild(star);
+					i++
+				}
+			}
+			stars()
+		</script>
+	</body>
+</html>

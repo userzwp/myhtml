@@ -1,0 +1,171 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1995070_bvy9u9jqk7.eot?t=1596932659135'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1995070_bvy9u9jqk7.eot?t=1596932659135#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAlIAAsAAAAAEOwAAAj5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCEUgqSZI5pATYCJAM0CxwABCAFhG0HgR8bDA5RlFBWENlPTZ5UaIsa5+Pn7GwF5wcsOKAAAABQCsBbAMHz/P7+WxtX5777vgdyd6Xin0lsQpSjHekKVjBPO/87l/+Q3MZ5/ojViBTalX7gILmk7QDVnJ5SE5Lc1AZwa22M3IBRcYFXYSZn5gYmRtawUNAm6riohcFVYCfxnXzGtfnA2P/59nN1iEi1zdt6+SZ3vImhYs378kJCRO63aUIrFVKIqIRHS++FSXwaAgR6UCUy5eDsEtI4vCDosVwwG9IOMx6RJOR5acCVXpd9JOS6Xd8A7NX+Xn7TljQoicGfOWPZvgdb37hfTo2IW1miWDlYXD7wth8YMAzA3+DNQMNlIMpPSozQ39kKdKBMCOm37Iv6F22y5BhuLIsTf9N++MYtWmEy3jWhA0usCAIU/H8eTkmgICOnhpCgICkk1jDnuMPyjSsZsR/Ag4AXiGDEAcQwUgIoYSQAZMFIAZADgexgOIzkAGNBVgMsMCIAJ6BDAt+nDUIBqBRzFxZUV/0N2HX42HbqlQT/LTZ0qRNGmXcSZlmbZnRNWBGpbSTxbKMkj/rQCSyJbuohcNSdgc5oepaUeWDE1KW1qlXuq6Ey9WqPgyIUK5yEcqXL563eLrPTVgaR+xxK7u8NT8NmTDPNgJcpfF+n5OWwCYNxzIybNlgTc6JvYbHP8UTC7ISz4l/Mi8dNVn44CrB2T6P74UD6x72jUcyn1MJNL1NYpa8GoK1v0qHQ603+tETeisXwoEa81UtmiWtpHRRgctEaSstaZXcqAMKFOPSg271XzKOBXC+5D3b5AO7/PgBax+h5fjpHTJFcVz567oazw/UNCDesCiXj32uu0O4GwW0eRLTTBQBbnQqhnaYgJogykssq4F1/nBr1Kgy2uxPJkHWE05K2eyYuBETYLDO4QsipQMCjrwcKm14CbOLVAFE7PALCrMZdzY5W9WomBEvswfx5+1dSRN4KZ1MLreMEmNbm9a3HW4m3tSge3zM4uD1w0ajlOmwf3mVAqnrdcMQAYjhGBg2IVR3Qe8w3QOtcJ0lQDsZKp60k8xLm9CLWJBFu3hyslmthvMEe2w+73aqWJUtge4fOX1a4mnHkr6RKNd62LXDL6zTIWqd2zHPVENVjhseSDsF6yFlNg/OZT3EP4qAAFhEkm2D4yH5fOM/bBgsL8CTdoLcm0st6MYWdSCTmSIxyDKHyr6SWxixUjIi+jNrjr+PWxJuEI7Z6QPJD8YFjvbE0VtLWb4H7E40vcgN6tcqvq33eENebyIf2xwWYLxp+muXVKJQ+bc2z+pgGZ544HuUb7Cp3R051G1mtMrn9gSqd/3EtrVLub9XrPUzdE32g0h9Qmz01VHt2XSdTp8SXbdtyre9RDaXEmxAajZOsfqjxVvi8Csz5/WHDewyT5CLfYij0fs7TnA9CwUxkDH3ZP5/efPblBAWdRyu4uwB9610HRw5Qj/OdUo3LHpm9xu639ho48uDGkTkVf12lY4IqPq5/+uKZQzFCyS3FB7lSWuRJNnSb/SDjPfctwNMFJdPDih9NN/LC3nNN7B9/9CbwbOjto4XNqbtGsJ+77qHSe7YQGPDqJrwIhPbd6rzEIoww40hAPEN0fqzAKBh7PqL1paAFAOtATdlB+R6smgrWPnDaiMtlEN070puGjEjsMHR49BQK/y3vhA9qWv6d4gd635y+6fCmJUmulJuUo4cK6hIomv1bnSXYuCXJY9K2bOTt4Rzm7OFtfLlbhFZr9qf0XNLzRC6wCpAtlSn7Wfv15lP8xznN7y0d+TijD/UW90UfNfQVs74ZI5MG1iODRol7vVRDwcx3eLtFe3iscY9oN3fqq8hz9wM+3th14njEJD+u68WLEVS/5QXLCRPBkhqWG6SZBZkaz/IgAsP7HrkUEeeII2u9V7/KMeR8dfULNqDJ1J3ZYOhvoDt8N2HRJvnbsk3TzMBf30S4f3aDnFOk+8+IWH2QTEsYTH7nwin8ZTLMha+mbFw6rmTPgCJNjzBnU8mQoqzBxpGZ/4EqXVpm5ekJ4zuLh/i2hAGtgAbE3RfAW5shC2vetf02vv7YLHh8wTbZhZ3gTMgSNOhr/CPeSfFJnrKGOMc28j5cFXh3YNCFvuk3u5E1eul0ea52Xq3tjHTvXpvRJv8A6Rmbe63ikO1WZ2qWCL0uubstjGrRL4ve7HA3og/qkW4CED5tj/2vOojsEAgR5qt+T25WHn4JDHi5CZFzPj2ifa2p/ZQjR4r4+MNqY8+fZLk9zJlL5mZKc2U/jTS6HvzVTX4vfQouZjJT07C5jHUE0C36qTsdNRp/VNv+NRFcvAScIBiWLJHHMJQTMy1QyZsdf8lkKKp9/t7+BjIuXjRwx5XhweNsav5ugmWPff/bS//ve6lp11iPbb7G2ZDvYRXlZffMzitiefIbnJr5Ng+36yb5L7XjtDXw9h8i742tfse2Qrxo78wEEB8UsRkA8aTNjpUAgN08GfH365+qFeLbsqAGAHFFN4KSFkT3ZN2yNzYt52uWWFbxNv13TzyKTUt/j96gw39LI4/Jms/42hpefegKK/m5XCRwB8z3zsjbveuXAV/9CUSQ2kxIZAE5FQcIjQoEa8y9r7SZ72pgW2LqhgvbLLmS0V1u5PQL8rBh8oSScfKUnPHywFAOry9pwRBDvACG8M7JhUY+5Eqd+7wFhX3yjrAveUIH/rkUcRKTB+aJ/I4lA0Rkxxi0A/SI80CEqyQVbUFW73mOLJzZhpiXk67R+EJJ0qo3/1sOUaIp4hz/lrWDgBJq1JwccGfgbKbIwqgJukGdo3kxbjTox7l1V80hy2QMiE2gqHsQHB70BS4KCd06IOv5/XMQRsgMGxMx4Y/+NYjBR7hOaFGnmSDoUJSJJmxKf59bGG0CyqcQabhBMYdwQPnITGhUEBbBh01AXALq8Az1C8Y0aCGaVKxXD+fzHDITJ+G9VImKiUsiqWSSSyFBSqlJJXXytcKW7DFUuTFB8TFodnvdmB+q1DIxEQ7K4o5QuDy8EdvZji1biaSWmZ0B8UGF0f5DUkHoCFvVUj5X4QPeJ/cqyXiYtHfARy4AAAAA') format('woff2'),
+  url('//at.alicdn.com/t/font_1995070_bvy9u9jqk7.woff?t=1596932659135') format('woff'),
+  url('//at.alicdn.com/t/font_1995070_bvy9u9jqk7.ttf?t=1596932659135') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1995070_bvy9u9jqk7.svg?t=1596932659135#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangzuo:before {
+  content: "\e65e";
+}
+
+.icon-iconset0454:before {
+  content: "\e74d";
+}
+
+.icon-suo:before {
+  content: "\e606";
+}
+
+.icon-bijiben:before {
+  content: "\e60d";
+}
+
+.icon-tuichu_huaban1:before {
+  content: "\e686";
+}
+
+.icon-xiala:before {
+  content: "\e607";
+}
+
+.icon-xiangyou:before {
+  content: "\e626";
+}
+
+.icon-49:before {
+  content: "\e63c";
+}
+
+.icon-tubiao-:before {
+  content: "\e624";
+}
+
+.icon-shouyex:before {
+  content: "\e615";
+}
+
+.icon-yonghu:before {
+  content: "\e60e";
+}
+
+.icon-shezhi:before {
+  content: "\e644";
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+body{
+	background: #18191a;
+	overflow: hidden;
+}
+nav{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+nav .drop-btn{
+	width: 400px;
+	background: #242526;
+	color: #b0b3b8;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 0 20px;
+}
+nav .drop-btn span{
+	float: right;
+	line-height: 50px;
+	font-size: 28px;
+	cursor: pointer;
+}
+nav .wrapper{
+	position: absolute;
+	top: 65px;
+	display: flex;
+	width: 400px;
+	overflow: hidden;
+	background: #242526;
+	border-radius: 5px;
+	display: none;
+}
+nav .wrapper.show{
+	display: block;
+	display: flex;
+}
+nav .wrapper .setting-drop,
+nav .wrapper .help-drop{
+	display: none;
+}
+nav .wrapper ul{
+	list-style: none;
+	width: 400px;
+	padding: 10px;
+	transition: all .3s ease;
+}
+nav .wrapper ul li{
+	line-height: 55px;
+}
+nav .wrapper ul li a{
+	text-decoration: none;
+	color: #B0B3B8;
+	display: flex;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 0 10px;
+	align-items: center;
+	border-radius: 8px;
+}
+nav .wrapper ul li:hover a{
+	background: #3A3b3c;
+}
+nav .wrapper ul li a .icon{
+	height: 40px;
+	width: 40px;
+	margin-right: 13px;
+	background: #ffffff1a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+nav .wrapper ul li a .icon span{
+	font-size: 22px;
+	line-height: 22px;
+}
+.wrapper ul li a i{
+	position:relative;
+	right: -140px;
+	font-size: 25px;
+	pointer-events: none;
+}
+.wrapper ul li a i.xus{
+	right: -154px;
+}
+.wrapper ul .arrow{
+	padding-left: 10px;
+	font-size: 20px;
+	color: #b0b3b8;
+	font-weight: 500;
+	cursor: pointer;
+}
+.wrapper ul .arrow span{
+	margin-right: 15px;
+}

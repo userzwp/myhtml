@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(#5b6f94,#60708a);
+	background-attachment: fixed;
+	overflow: hidden;
+}
+.moon{
+	position: absolute;
+	top: 100px;
+	left: 490px;
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	border-radius: 50%;
+	z-index: 1;
+}
+.moon::before{
+	content: "";
+	position: absolute;
+	top: -15px;
+	left: 15px;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: linear-gradient(#5b6f94,#60708a);
+	background-attachment: fixed;
+}
+.forest{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	transform: scale(1.2);
+}
+
+.container i {
+	position: absolute;
+	background: #fff;
+	border-radius: 50%;
+	animation: animate linear infinite;
+}
+
+@keyframes animate{
+	0%{
+		opacity: 0;
+		transform: translateY(0);
+	}
+	10%,90%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+}

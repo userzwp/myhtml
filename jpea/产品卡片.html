@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/index2.css" rel="stylesheet"/>
+        <script src="../js/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="imgae">
+				<img src="../img/imags/2.jpg">
+			</div>
+			<div class="card-content">
+				<div class="wrapper">
+					<div class="title">Adidas</div>
+					<p>mens ruhning thisr</p>
+					<div class="price">$29.99</div>
+					<div class="content size">
+						<div class="name size-name">size</div>
+						<div class="size-value">
+							<span class="color">XS</span>
+							<span class="color">S</span>
+							<span class="active color">M</span>
+							<span class="color">L</span>
+							<span class="color">XL</span>
+						</div>
+					</div>
+					
+					<div class="content colour">
+						<div class="name colour-name">colour</div>
+						<div class="colour-value">
+							<span class="white" data-img="../img/imags/1.jpg"  data-color="lightgrey"></span>
+							<span class="blue active" data-img="../img/imags/2.jpg" data-color="#456ABD"></span>
+							<span class="yellow" data-img="../img/imags/3.jpg" data-color="#EAA523"></span>
+						</div>
+					</div>
+					
+					<div class="btns">
+						<button>Buy now</button>
+						<button> Add to cart</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(".colour-value span").click(function(){
+				$(".colour-value span").removeClass("active")
+				$(this).addClass("active")
+				$("body").css("background",$(this).attr("data-color"))
+				$(".price").css("color",$(this).attr("data-color"))
+				$(".size-value .active").css("background",$(this).attr("data-color"))
+				$(".size-value .color").css("color",$(this).attr("data-color"))
+				$(".wrapper .btns button").css({
+					"background":$(this).attr("data-color"),
+					"border-color":$(this).attr("data-color")
+				})
+				$(".imgae img").attr("src",$(this).attr("data-img"))
+			})
+		</script>
+	</body>
+</html>

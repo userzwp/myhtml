@@ -1,0 +1,166 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1987068_v28b9vq2k9.eot?t=1596579752051'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1987068_v28b9vq2k9.eot?t=1596579752051#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPEAAsAAAAAB9gAAAN2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDFIJhATYCJAMQCwoABCAFhG0HSBvTBhFVnFfIfhbkZKcpKQjpTWhUN6daut+E4ray7f29x8O/+5X3JfmzWUIFClAx2N1WESoCZVrVU8vGVgmSrKvnQC/vk0cFbgY3yRPgoJjAsTNTmBjdt5+OsS3CRKguWcvy03e83+78S9MC53EapRASIfF5rql3t0iB/EBzjGirpOKjvQGOWwcWlTSyDWSgOPV9wIbu5zCBLpOWxKmVgwcwKcxRgXgcGx0KTBmH0lAYqtCqWFggXkOjpnLkFHgVfD7+wXJUkDQZzIkXoywjwORN6M0SLfkvccMjQDmdD/wyMpZQiPuVgXuARqklWZfanWodVZWYqs3ozfK/TaqjGKr1l0eWBNECM78HrFI681PIUSRGI7RJaLRE1QMcVEBFB14AeMcUjvs1QlIm+3u4Bth68pcJg7ElhQlCo6dTsJX0IgiPNpy/7S70iPSePc/HMA/81bC5UnDjwZsgfPYJmUHSeg+X7sPyh9eEkberchyf1ylo54ZiMscuJoW8wy05D0hZ9D3hUcnvwTJWocJyqZU1mWMJU4tcqzSOniG0QyYbPNhujxZV+pt7ajC/vCMtGyF34SB/rezaQSZPPrPHYtly6W4dTRvtOJA6MapDN7eROu56uFq6Krua/Xujvx6t29qs+exzchRhOXPq7w+4wiLXgPbLksso9kG26EuNzTKxQfaoS3VLjXlHR9HBBu+cxpzrFRkUTU/TN2db/J7irmNO+XmRrbk0xVRRVktoLGWMtLJxd3gOgLZch3wFw8uBqDHkD8j+T/uO3S5vbnMa/K/dVICvLjCKobYC3RVvXqkqf5GyY1nR1KazFEXjKPRgsZkaJaFLF35MjiE/prCM3n0mVKMJkg4TyKopsrCWoGh0W0VLdYAui07Luw0TU1E6seANCAM+SPp8QTbgSxbWD40xf7QMREaXS7HdsNtMPGDZpSFSpBS/qEi4NbZbN2HhGVlfR5JWB6I7pCui5Gto5bMntJAppnRDFqgaMsINHeE41DWTFS6RqJOr2tDVjKp6kZNwM9o4ISCiIEViL6SQYC3jVVebwvvPINOrRaSBVpW/A9EpOic+h9eBPBnaTrRbeaYzyASUMoghWIMcwQe1lWLEVvcrQUI58gEJK+RSJdPV4Cxvat5wDXQxu5VIkaNEo/PsdofNucUyjW2zB4rVK7l/FlGbjUYAAA==') format('woff2'),
+  url('//at.alicdn.com/t/font_1987068_v28b9vq2k9.woff?t=1596579752051') format('woff'),
+  url('//at.alicdn.com/t/font_1987068_v28b9vq2k9.ttf?t=1596579752051') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1987068_v28b9vq2k9.svg?t=1596579752051#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telephone:before {
+  content: "\e645";
+}
+
+.icon-dingwei:before {
+  content: "\e63e";
+}
+
+.icon-youxiang:before {
+  content: "\e618";
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contact{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(../../img/imags/2.jpg);
+	background-size: cover;
+}
+.contact .content{
+	max-width: 800px;
+	text-align: center;
+}
+.contact .content h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+}
+.contact .content p{
+	font-weight: 300;
+	color: #fff;
+}
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.container .contactInfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.container .contactInfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.container .contactInfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.container .contactInfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+	font-weight: 500;
+	color: #00bcd4;
+}
+.container .contactForm{
+	width: 40%;
+	padding: 40px;
+	background: #fff;
+}
+.container .contactForm h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+.container .contactForm .inputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.container .contactForm .inputBox input,
+.container .contactForm .inputBox textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+.container .contactForm .inputBox span{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	color: #666;
+	pointer-events: none;
+	transition: .5s;
+}
+.container .contactForm .inputBox input:focus ~ span,
+.container .contactForm .inputBox input:valid ~ span,
+.container .contactForm .inputBox textarea:focus ~ span,
+.container .contactForm .inputBox textarea:valid ~ span{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+.container .contactForm .inputBox input[type="submit"]{
+	width: 100%;
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+@media (max-width:991px) {
+	.contact{
+		padding: 50px;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.container .contactInfo{
+		margin-bottom: 40px;
+		width: 100%;
+	}
+	.container .contactForm{
+		width:100% ;
+	}
+}

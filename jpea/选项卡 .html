@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/index5.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav>
+			<div class="drop-btn">
+				Drop down <span class="iconfont icon-xiala"></span>
+			</div>
+			<div class="wrapper">
+				<ul class="menu-bar">
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-shouyex"></span> </div>
+					Home
+					</a> </li>
+					<li class="setting-item"><a href="#">
+					<div class="icon"><span class="iconfont icon-shezhi"></span> </div>
+					Setting & privacy <i class="iconfont icon-xiangyou"></i>
+					</a> </li>
+					<li class="help-item"><a href="#">
+					<div class="icon"><span class="iconfont icon-49"></span> </div>
+					Help & support <i class="iconfont icon-xiangyou xus"></i>
+					</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-yonghu"></span> </div>
+					About us
+					</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-tubiao-"></span> </div>
+					Feedback
+					</a> </li>
+				</ul>
+				<ul class="setting-drop">
+					<li class="arrow back-setting"><span class="iconfont icon-xiangzuo"></span>Settings & privacy</li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-yonghu"></span> </div>
+					Personal info</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-suo"></span> </div>
+					Password</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-bijiben"></span> </div>
+				     Activity log</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-iconset0454"></span> </div>
+					Languages</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-tuichu_huaban1"></span> </div>
+					Log out</a> </li>
+				</ul>
+				<ul class="help-drop">
+					<li class="arrow back-help"><span class="iconfont icon-xiangzuo"></span>Help & support</li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-yonghu"></span> </div>
+					Support inbox</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-suo"></span> </div>
+					Send feedback</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-bijiben"></span> </div>
+				     Help center</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-iconset0454"></span> </div>
+					Languages</a> </li>
+					<li><a href="#">
+					<div class="icon"><span class="iconfont icon-tuichu_huaban1"></span> </div>
+					Repor probel</a> </li>
+				</ul>
+			</div>
+		</nav>
+		<script>
+			const drop_btn = document.querySelector(".drop-btn span");
+			const menu_wrapper = document.querySelector(".wrapper");
+			const menu_bar = document.querySelector(".menu-bar")
+			const setting_drop = document.querySelector(".setting-drop")
+			const help_drop = document.querySelector(".help-drop")
+			const setting_item = document.querySelector(".setting-item")
+			const help_item = document.querySelector(".help-item")
+			const back_setting = document.querySelector(".back-setting")
+			const back_help = document.querySelector(".back-help")
+			drop_btn.onclick = (()=>{
+	               menu_wrapper.classList.toggle("show")	
+			})
+			setting_item.onclick =(()=>{
+				menu_bar.style.marginLeft="-400px"
+				setting_drop.style.display="block"
+			})
+			help_item.onclick = (()=>{
+				menu_bar.style.marginLeft = "-400px"
+				help_drop.style.display = "block"
+			})
+			back_setting.onclick =(()=>{
+				menu_bar.style.marginLeft="0px"
+				setting_drop.style.display="none"
+			})
+			back_help.onclick = (()=>{
+				menu_bar.style.marginLeft = "0px"
+				help_drop.style.display = "none"
+			})
+		</script>
+	</body>
+</html>

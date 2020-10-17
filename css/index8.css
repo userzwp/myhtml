@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/iconfont.woff2') format('woff2'),
+      url('../font/iconfont.woff') format('woff'),
+      url('../font/iconfont.ttf') format('truetype'),
+      url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+	background: url(../img/imags/1.jpg) no-repeat;
+	background-size: cover;
+	
+}
+.contact-info{
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	position: relative;
+	display: flex;
+	flex: 1;
+	max-width: 300px;
+	background-color: rgba(13,33,51,.1);
+	margin: 20px;
+	height: 140px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.iconfont{
+	font-size: 32px;
+	color:#ea8685;
+}
+.card:hover .iconfont{
+	transform: scale(3);
+	transition: .3s linear;
+	opacity: 0;
+}
+.card-content h3,
+.card-content span{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 16px;
+	opacity: 0;
+}
+.card-content h3{
+	top: 20px;
+	color: #EA8685;
+	text-transform: uppercase;
+}
+.card-content span{
+	bottom: 20px;
+	color: #fff;
+	font-weight: 500;
+}
+.card:hover h3{
+	top: 46px;
+	opacity: 1;
+	transition: .3s linear .3s; 
+}
+.card:hover span{
+	bottom: 46px;
+	opacity: 1;
+	transition: .3s linear .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+	background: url(../img/imags/1.jpg) no-repeat ;
+	background-size: cover;
+}
+.contact-info{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.card{
+	position: relative;
+	flex: 1;
+	max-width: 300px;
+	height: 140px;
+	background-color:rgba(13,33,51,.1);
+	margin: 20px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.iconfont{
+	font-size: 32px;
+	color: #ea8685;
+	
+}
+.card:hover .iconfont{
+	transform: scale(3);
+	opacity: 0;
+	transition: .3s linear;
+}
+.card-content h3,
+.card-content span{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 16px;
+	opacity: 0;
+}
+.card-content h3{
+	top: 20px;
+	text-transform: uppercase;
+	color: #EA8685;
+}
+.card-content span{
+	bottom: 20px;
+	color: #fff;
+	font-weight: 500;
+}
+.card:hover h3{
+	opacity: 1;
+	top: 46px;
+	transition: .3s linear .3s;
+}
+.card:hover span{
+	opacity: 1;
+	bottom: 46px;
+	transition: .3s linear .3s;
+}
+@media screen and (max-width:900px) {
+	.card{
+		flex: 100%;
+		max-width: 500px;
+	}
+} */
